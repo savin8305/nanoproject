@@ -3,11 +3,7 @@ let collectedGraphComponent = [];
 let graphComponentMatrix = [];
 
 
-//         // Why array -> More than 1 child relation(dependency)
-//         row.push([]);
-//     }
-//     graphComponentMatrix.push(row);
-// }
+
 
 // True -> cyclic, False -> Not cyclic
 function isGraphCylic(graphComponentMatrix) {
